@@ -1,0 +1,112 @@
+.topnav
+{
+    background-color: #333333;
+    overflow: hidden;
+  }
+
+  .topnav a
+   {
+    float: left;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a:hover 
+  {
+    background-color: green;
+    color: red;
+  }
+  
+
+  .topnav a.active 
+  {
+    background-color: black;
+    color:red;
+  }
+
+  .center 
+  {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .first-div
+ {
+    height: 500px;
+    width: 500px;
+    background-color: #3445db60;
+    border-width: 3px;
+    border-color: #3ce73c;
+    border-style: solid;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+ }
+ #hobbies
+ {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-width: 3px;
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 20%;
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
+
+ }
+
+ #index
+ {
+    background-color: rgb(58, 87, 86);
+ }
+
+ #div2
+ {
+   
+    height: 500px;
+    width: 500px;
+    background-color: #3445db60;
+    border-width: 3px;
+    border-color: #3ce73c;
+    border-style: solid;
+    border-radius: 20%;
+    margin: 10px auto; /* Center horizontally */
+    padding: 5px;
+    position: absolute;
+    right: 10px; /* Adjust this value as needed */
+    top: 300px; /* Add this property to move it to the top */
+    z-index: 1; /* Set a higher z-index value to bring it to the top */
+ }
+ .links
+ {
+
+    color: rgb(164, 169, 11);
+ }
+
+ .normal-para
+ {
+    color: rgb(9, 141, 242);
+ }
+
+ #h1 {
+    text-align: center;
+  }
+
+
+  #fav-para
+ {
+    color: rgb(243, 17, 17);
+ }
+ #Hobbiesh2
+ {
+    color: rgb(17, 243, 145);
+ }
